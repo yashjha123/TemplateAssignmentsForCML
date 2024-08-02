@@ -11,7 +11,7 @@ fi
 # Run the student's solution
 # Output will be printed to the console
 # Internal timer of 5 seconds
-time 5 python3 $1 < $2
+timeout 5 python3 $1 < $2
 
 
 # End of file

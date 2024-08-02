@@ -1,5 +1,2 @@
-a = input("Enter a number: ")
-b = input("Enter another number: ")
-a = int(a)
-b = int(b)
-print("The sum of the two numbers is", a + b)
+a,b = list(map(int,input("Enter your input: ").split(" ")))
+print("The sum of the two numbers is:", a + b)

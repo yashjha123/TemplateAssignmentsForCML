@@ -8,10 +8,13 @@ if [ "$#" -ne 2 ]; then
     exit 1
 fi
 
-# Run the student's solution
+# Make the teacher's solution executable
+chmod a+x $1
+
+# Run the teacher's compiled binary
 # Output will be printed to the console
 # Internal timer of 5 seconds
-timeout 5 python3 $1 < $2
+$1 < $2
 
 
 # End of file
