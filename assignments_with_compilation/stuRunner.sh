@@ -8,7 +8,6 @@ if [ "$#" -ne 2 ]; then
     exit 1
 fi
 
-sleep 4
 # Make the student's solution executable
 chmod a+x $1
 
